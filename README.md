@@ -1,7 +1,3 @@
-Based on the screenshots provided, here is a professional and comprehensive **README.md** file tailored for your React-based Cryptocurrency Tracker project.
-
------
-
 # 🪙 Cryptocurrency Tracker
 
 A sleek, dark-themed React application that displays real-time exchange rates for popular cryptocurrencies (Bitcoin, Ethereum, Litecoin, and XMR) in both USD and Euro.
