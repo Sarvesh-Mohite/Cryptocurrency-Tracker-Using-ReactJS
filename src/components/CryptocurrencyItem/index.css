@@ -1,0 +1,45 @@
+.ccl-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  background-color: transparent;
+  padding: 10px 20px;
+}
+
+.ccl-logo-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 40%;
+}
+
+.ccl-currency-values {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 60%;
+}
+
+.ccl-currency-value {
+  font-size: 20px;
+  font-family: 'Roboto';
+  width: 100px;
+  text-align: right;
+  margin-left: 20px;
+  color: #ffffff;
+}
+
+.crypto-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.crypto-name {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+  color: #ffffff;
+}

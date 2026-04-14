@@ -1,0 +1,60 @@
+.ccl-main-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ccl-heading {
+  color: #00e7ff;
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+
+.ccl-image {
+  width: 50%;
+}
+
+.ccl-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0; /* Added margin for better spacing */
+  color: white;
+  width: 60%; /* Increased width to give more room */
+  border: 5px solid #00e7ff;
+  border-radius: 10px;
+  background-color: #000000; /* Ensures the body of the list is black */
+}
+
+.ccl-list li {
+  width: 100%;
+}
+
+.ccl-list-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092e33;
+  padding: 10px 20px;
+}
+
+.ccl-currencies {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-grow: 1; 
+}
+
+.ccl-currency {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  width: 120px;
+  text-align: right;
+  margin-left: 10px;
+  color: #ffffff;
+}
